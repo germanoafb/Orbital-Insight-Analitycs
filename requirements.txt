@@ -1,0 +1,34 @@
+# Orbital Insight Analytics — Python dependencies
+#
+# Install with:  pip install -r requirements.txt
+#
+# Core data science
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+joblib>=1.3
+
+# Geospatial / raster processing
+# rasterio>=1.3          # Uncomment if real GeoTIFF data is available
+# geopandas>=0.14        # Uncomment for shapefile/vector data support
+
+# Visualization
+matplotlib>=3.7
+plotly>=5.14
+folium>=0.14
+
+# Backend API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9   # File upload support
+
+# Frontend dashboard
+streamlit>=1.33
+streamlit-folium>=0.20
+
+# HTTP client (frontend → backend calls)
+httpx>=0.27
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.0
